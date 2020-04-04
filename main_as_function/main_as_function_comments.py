@@ -13,7 +13,7 @@ def main(*args: tuple, **kwargs: dict) -> int:
     """
     Ich bin ein Docstring.
     Die help-Funktion zeigt diesen Text hier an, indem der Aufruf und die Benutzung dieser Funktionen erklärt sein sollte.
-    Unter Programmierern sollte man auf bei eingedeutschten Programmen dennoch in Englisch schreiben.
+    Unter Programmierern sollte man auch bei eingedeutschten Programmen dennoch auf Englisch schreiben.
     Das gilt für Hilfetexte, Kommentare und vor allem für Variabelennamen.
     Auch sollten in Docstrings von Funktionen immer die Parameter und der Rückgabewert der Funktion beschrieben werden.
     
