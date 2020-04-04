@@ -4,7 +4,7 @@ Hier gibt es Vorlagen für neue Projekte für verschiedene Anwendungszwecken mit
 ## Allgemeines
 
 ### Shebang
-Benutze grundsätzlich einen "_shebang_" in der ersten Zeile deines Hauptprogrammes. Das ermöglicht auf Unix-basierten Betriebssystemen das direkte Ausführen des Scriptes mit dem vorgesehenen Interpreter. Auch wenn Python unter Windows benutzt wird, sollte man den Richtlinien folgen. Außerdem gibt es unter Windows auch Tools, die diese Zeile auswerten. Der Shebang ist für Python selber nur ein Kommentar durch die Raute und wird somit ignoriert.
+Benutze grundsätzlich einen "_shebang_" in der ersten Zeile deines Hauptprogrammes. Das ermöglicht auf Unix-basierten Betriebssystemen das direkte Ausführen des Scriptes mit dem vorgesehenen Interpreter. Auch wenn Python unter Windows benutzt wird, sollte man den Richtlinien folgen. Außerdem gibt es unter **Windows** auch Tools oder Gegebenheiten, die diese Zeile auswerten. Der Shebang ist für Python selber nur ein Kommentar durch die Raute und wird somit ignoriert.
 
 | Erste Zeile | Beschreibung |
 |----------------------------|-----------------------------------------------------------------------------------------|
@@ -19,7 +19,8 @@ Python-Dateien müssen für diese Methode ausführbar sein `chmod +x script.py` 
 
 Der shebang wird letztendlich ignoriert, wenn der Python-Interpreter direkt mit dem Script gestartet wird: `python3 script.py`. Das Script muss in diesem Fall auch nicht ausführbar sein.
 
-Unter Unix-Systemen werden Programme mit alternativen symbolischen Links (Verknüpfungen) aufgerufen. Beispiel mti Python:
+Unter Unix-Systemen werden Programme mit alternativen symbolischen Links (Verknüpfungen) aufgerufen.  
+Beispiel mit Python:
 ```bash
 ls -al /usr/bin/python*
 lrwxrwxrwx 1 root root     7 21. Dez 21:57 /usr/bin/python -> python3
